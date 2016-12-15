@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'core_circusregular';
+    src: url('./typo/corecircus-webfont.woff2') format('woff2'),
+         url('./typo/corecircus-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  font-family: 'core_circusregular';
+  text-align: left;
+  line-height: 1.6;
+    color : black;
+    font-size: 13px
+}
+
+
+h1,h2,h3
+{
+/*  font-family: 'Arial', sans-serif;*/
+font-family: 'core_circusregular';
+}
+
+  p{
+    font-family: "Patua One";
+    color :rgb(25,74,97);
+  }
+
+  h1{
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    /* ombre ordre : vertical horizontal flou couleur */
+    /*text-shadow: 0.5em 0.5em 7px #333;*/
+    letter-spacing: 0.2ch;
+
+  }
+
+  footer{
+    font-size: 0.65em;
+    text-align: center;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+
+  }
+/*
+  figure{
+    width: 50%;
+    margin: 1em auto;
+  }
+*/
+  a{
+    color:#333;
+    text-decoration: none;
+    text-align: justify;
+    margin: 2em;
+    text-align: center;
+  }
+
+  body{
+    padding: 40px;
+    margin: 30px;
+    background-color : white;
+
+
+  }
+
+  div.bandeau-fixe{
+    position: fixed;
+    width: 300px;
+    top: 20%;
+    left: 70%;
+    z-index: 2;
+  }
+
+  div.postit{
+    position: fixed;
+    top: 20%;
+    width: 170px;
+    left:30px;
+
+  }
+
+  h3.typobandeau{
+    font-family: serif;
+  }
+
+h1.emmacaréna{
+  color: black;
+  text-align: center;
+
+}
+body{
+  background-repeat: no-repeat;
+  background-position:top;
+  background-size: 40%;
+  padding: 70px;
+  margin: 70px;
+}
+
+h2.soustitre{
+  font-family: serif;
+  font-style: oblique;
+  font-size: 1em;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+nav{
+  text-align: center;
+  }
+
+main{
+  text-align: left;
+  padding:30px
+}
+
+#projets{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+}
+
+.colonne
+{
+  width:33%;
+  padding:1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.colonne figure
+{
+  margin:1em 0;
+  width:100%;
+}
+
+
+.rollover
+{
+  display: block;
+  position: relative;
+}
+
+.rollover .cache {
+display: none;
+position: absolute;
+left: 0;
+top:0;
+height:100%;
+background-color:  rgba(255, 241, 208, 0.6);
+width:100%;
+}
+
+.rollover:hover .cache{
+  display: block;
+}
+
+div.cache p {
+font-family: 'core_circusregular';
+font-size: 15px;
+text-align: center;
+line-height: 15em;
+color : black;
+}
+
+/*.imgsex
+{
+  border: 1px solid rgb(171, 170, 170);
+}
+
+.typo{
+  border: 1px solid rgb(171, 170, 170);
+  }*/
