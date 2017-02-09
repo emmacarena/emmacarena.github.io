@@ -225,6 +225,10 @@ header {
   width: auto;
 }
 
+.cv {
+  margin-top: 4em;
+}
+
 /*.imgsex
 {
   border: 1px solid rgb(171, 170, 170);
