@@ -19,8 +19,8 @@ h1, h2, h3 {
 }
 
 p {
-    font-family: "Patua One";
-    color: rgb(25, 74, 97);
+    font-family: "Hind", sans-serif;
+    color: black;
 }
 
 h1 {
@@ -55,6 +55,7 @@ body {
     margin: 30px;
     background-color: white;
 }
+
 
 div.bandeau-fixe {
     position: fixed;
@@ -180,6 +181,7 @@ header {
   display: flex;
   position: relative;
   margin-bottom: 3em;
+  margin-top: 3em;
 }
 
 .projet-images {
@@ -189,6 +191,7 @@ header {
 
 .projet-texte {
   flex-basis: 50%;
+  margin-left: 2em
 }
 
 .projet-numero {
@@ -199,7 +202,7 @@ header {
 }
 
 .slider {
-  background: #ddd;
+  background: white;
   height:60vh;
   min-height: 500px;
   white-space: nowrap;
