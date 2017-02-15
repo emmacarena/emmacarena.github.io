@@ -134,6 +134,10 @@ main {
     display: flex;
 }
 
+.gif{
+  text-align: center;
+}
+
 .colonne {
     width: 33%;
     padding: 1em;
