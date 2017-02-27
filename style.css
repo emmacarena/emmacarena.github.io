@@ -74,9 +74,9 @@ div.moi{
   position: fixed;
   width : 300px;
   top: 30%;
-  left:70%;
+  left:72%;
   z-index: 2;
-  border: solid 4px red;
+  border: solid 4px black;
 }
 
 div.postit {
