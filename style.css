@@ -64,9 +64,9 @@ body {
 
 div.bandeau-fixe {
     position: fixed;
-    width: 300px;
+    width: 200px;
     top: 20%;
-    left: 70%;
+    left: 75%;
     z-index: 2;
 }
 
